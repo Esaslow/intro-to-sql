@@ -4,35 +4,33 @@
 
 ## Setting up your computer:
 
-- Open your web browser. I'll be using [chrome](https://www.google.com/chrome/), but  you can use [Safari](https://www.apple.com/safari/) or [Opera](https://www.opera.com/)(browsers that support [Web SQL](https://en.wikipedia.org/wiki/Web_SQL_Database)). 
-- to speed up learning we're going to use an [online editor and database](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) for SQL from [W3Schools](https://www.w3schools.com/). 
+- Open your web browser. I'll be using [chrome](https://www.google.com/chrome/), but  you can use [Safari](https://www.apple.com/safari/) or [Opera](https://www.opera.com/)(browsers that support [Web SQL](https://en.wikipedia.org/wiki/Web_SQL_Database)).
+- to speed up learning we're going to use an [online editor and database](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) for SQL from [W3Schools](https://www.w3schools.com/).
 
 That was easy!
 
 
-## Galvanize 
+## Galvanize
 
 ### Welcome to Galvanize!
 
 We create a technology ecosystem for learners, entrepreneurs, startups, and established companies to meet the needs of the rapidly changing digital world.
 
-We're an awesome community!!! 
+We're an awesome community!!!
 
 
 Shout out to Jessica tonight! If you have any questions about Galvanize tale to her! You can also email her at [learn@galvanize.com](mailto:learn@galvanize.com)
 
 
 ## About me:
-Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist at Galvanize Seattle. Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! I'm currently learning more about how to build AI and VR projects (I can't wait to do a workshop round these topics)! 
+Hello I'm [Elliott Saslow](http://elliottsaslow.com/). I'm a Technology Evangelist at Galvanize Los Angeles. I studied Engineering Physics at The University of Colorado Boulder where I was also working as a computational analyst in a Behavioral NeuroScience Lab.  I have taught much of the Data Science Curriculum, but I am not a Galvanize Instructor.  They have much more industry experience and are better at teaching difficult topics!
 
-*caveat* I'm not an Galvanize instructor, they're much better at teaching than I am!
 
 If you have an event you would like to see or put on let me know! I'm always looking for ideas. Talk to me after the workshop or find me online at one of these:
 
-- Website: [sageelliott.com](http://sageelliott.com/)
-- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
-- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
-- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+- Website: [elliottsaslow.com](http://sageelliott.com/)
+- Twitter: [@elliottsaslow](https://twitter.com/@elliottsaslow)
+- Email: [elliott.saslow@galvanize.com](mailto:elliott.saslow@galvanize.com)
 
 
 ## About you!
@@ -48,7 +46,7 @@ One of the best things about these in person workshops is being able to meet new
 
 ## What this workshop is
 
-A super friendly introduction to SQL No previous experience expected! 
+A super friendly introduction to SQL No previous experience expected!
 
 You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! Come to our almost weekly code hours [meetups](https://www.meetup.com/Learn-Code-Seattle/events/) to ask questions if you get stuck and show off what you've been working on!
 
@@ -79,7 +77,7 @@ Examples of products using databases.
 	- Gmail  
 - Mobile apps
 	- Uber
-	- Snapchat 
+	- Snapchat
 - Data for recommendations
 	- Netflix
 	- Amazon products
@@ -99,7 +97,7 @@ Some Professional Roles that work with databases:
 
 Pronounced `S` `Q` `L` or `Sequel`. Either way is fine!
 
-SQL stands for Structured Query Language. This is the language and syntax we will use to interact with SQL databases. 
+SQL stands for Structured Query Language. This is the language and syntax we will use to interact with SQL databases.
 
 When we return and search data from a database we call it Querying.
 
@@ -110,7 +108,7 @@ Each of these databases can be Queried using the SQL programming Language.
 - MySQL
 - PostgreSQL
 - Microsoft SQL
-- SQLite 
+- SQLite
 - Oracle
 
 *Note:* There are some slight differences to each database, but most of the SQL commands we're going to cover will be the same or very similar.
@@ -138,7 +136,7 @@ ORM stands for Object relation model
 There are two major components in a database:
 
 - Data(Information Stored) and Schema(How the data is organized)
-- Sections. Also called tables. This how the data get structured. 
+- Sections. Also called tables. This how the data get structured.
 
 
 ##### Tables
@@ -147,9 +145,9 @@ You can think of tables as spreadsheets:
 
 | Column ↓  | Column ↓   |  Column ↓  |
 |---|---|---|
-| Row →   |   |   | 
 | Row →   |   |   |
-| Row →   |   |   | 
+| Row →   |   |   |
+| Row →   |   |   |
 
 ##### Table Organization
 
@@ -212,7 +210,7 @@ Its important to have the correct data type for your data. This ensures that sor
 *Note:* Data types may change depending on which database you're using.
 
 
-We could spend a whole workshop discussing databases, but we're going to focus on querying language SQL for the remainder of this workshop. 
+We could spend a whole workshop discussing databases, but we're going to focus on querying language SQL for the remainder of this workshop.
 
 Learn more about databases on your own [here](https://www.w3schools.com/sql/sql_create_db.asp)!
 
@@ -280,7 +278,7 @@ WHERE ProductID = 14 OR ProductID = 42;
 ```
 
 
-So far we have been returning all the columns of a record that match our query. What if we want to only look at a few of them? 
+So far we have been returning all the columns of a record that match our query. What if we want to only look at a few of them?
 
 Instead of using `*` to select all we can put in the specific columns we want returned. We can also put them in different order!
 
@@ -294,7 +292,7 @@ SELECT Country, city, CustomerName FROM Customers
 ORDER BY Country ASC;
 ```
 
-Lets See just a list of countries 
+Lets See just a list of countries
 Using `DISTINCT`. Which will just return one instance.
 
 Run the query below with and without `DISTINCT` to see the difference.
@@ -324,7 +322,7 @@ Read more types of way to filter [here](https://www.w3schools.com/sql/sql_like.a
 
 ## Functions
 
-If you've used excel you'll probably be familiar with some of these functions. 
+If you've used excel you'll probably be familiar with some of these functions.
 
 
 - SUM() `SELECT SUM(Quantity) FROM OrderDetails;`
@@ -355,8 +353,8 @@ SELECT * FROM Customers;
 ```
 
 ##### What's Null?
-You should notice that some of the sections on our new row contain the word `null`. 
-In SQL you can think of `null` means that the cell contains no value. 
+You should notice that some of the sections on our new row contain the word `null`.
+In SQL you can think of `null` means that the cell contains no value.
 
 
 #### Update
@@ -375,7 +373,7 @@ WHERE CustomerID=1;
 SELECT * FROM Customers;
 ```
 
-Its common to select and update more than one single row by ID. 
+Its common to select and update more than one single row by ID.
 
 ```
 SELECT * FROM Customers
@@ -413,7 +411,7 @@ SELECT * FROM Customers;
 
 We're not going to go super deep into joins in this workshop and they can be a bit tricky to understand, so don't worry if you don't quite get it yet! Read about and practice them further [here](https://www.w3schools.com/sql/sql_join.asp).
 
-This of it as essentially joining tables together. We're then returning combined table for use to use. 
+This of it as essentially joining tables together. We're then returning combined table for use to use.
 
 ```
 SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate,
@@ -434,7 +432,7 @@ Find a helpful graph on joins [here](https://stackoverflow.com/questions/565620/
 
 #### Group by
 
-Instead of getting each row, sometimes we want to group them by 
+Instead of getting each row, sometimes we want to group them by
 
 ```
 SELECT COUNT(ShipperID), ShipperID FROM [Orders]
@@ -497,7 +495,7 @@ Setup an actual database on your computer!
 ## Upcoming Events!
 We host so many events! check out our [calendar](https://www.galvanize.com/san-francisco/events)
 
-[Learn code](https://www.meetup.com/learn-to-code-san-francisco/). Thats this meetup! We do workshops and community programming nights! Keep an eye out for more events coming to San Francisco soon! 
+[Learn code](https://www.meetup.com/learn-to-code-san-francisco/). Thats this meetup! We do workshops and community programming nights! Keep an eye out for more events coming to San Francisco soon!
 
 Upcoming Learn to code [events](https://www.meetup.com/Learn-Code-Seattle/events/):
 
@@ -527,7 +525,7 @@ This was only my 2nd time running this workshop, help improve it by giving me fe
 
 - Website: [sageelliott.com](http://sageelliott.com/)
 - Twitter: [@sagecodes](https://twitter.com/@sagecodes)
-- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
+- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/)
 - Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
 
 THANK YOU FOR HAVING ME SAN FRANCISCO!
@@ -542,11 +540,11 @@ Answers to the Questions Section:
 	- A: 12,743
 	- `SELECT SUM(Quantity) FROM OrderDetails;`
 
-	
-- Q: What is the most expensive item? 
+
+- Q: What is the most expensive item?
 	- A: Côte de Blaye
 	- `SELECT ProductID, ProductName, MAX(Price) FROM Products;`
-	
+
 - Q: What is the most popular item?
 	- A: Gorgonzola Telino
 
@@ -561,7 +559,7 @@ ORDER BY SUM(OrderDetails.Quantity) DESC;
 
 - Which customer has returned the most?
 	- A: Ernst Handel
-	
+
 ```
 SELECT Customers.CustomerName, COUNT(Customers.CustomerID)
 FROM Orders
