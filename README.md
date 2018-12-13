@@ -30,7 +30,7 @@ Hello I'm [Elliott Saslow](http://elliottsaslow.com/). I'm a Technology Evangeli
 
 If you have an event you would like to see or put on let me know! I'm always looking for ideas. Talk to me after the workshop or find me online at one of these:
 
-- Website: [elliottsaslow.com](http://sageelliott.com/)
+- Website: [elliottsaslow.com](http://elliottsaslow.com/)
 - Twitter: [@elliottsaslow](https://twitter.com/@elliottsaslow)
 - Email: [elliott.saslow@galvanize.com](mailto:elliott.saslow@galvanize.com)
 
@@ -428,20 +428,28 @@ SELECT * FROM Customers;
 
 ### Joins
 
-We're not going to go super deep into joins in this workshop and they can be a bit tricky to understand, so don't worry if you don't quite get it yet! Read about and practice them further [here](https://www.w3schools.com/sql/sql_join.asp).
+
+Joins are very tough, but lets start by understanding the basics behind the different types of joins that we can do.  
+
+Check out [this link](http://www.sql-join.com/sql-join-types/) for some images to explain what we are talking about!
+
+
+####More Practice?
+Read about and practice them further [here](https://www.w3schools.com/sql/sql_join.asp).
 
 This of it as essentially joining tables together. We're then returning combined table for use to use.
 
+
+Lets try some of these out on our online table!
+
 ```
-SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate,
-OrderDetails.ProductID, Products.productName, Products.Price
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
 FROM Orders
-JOIN Customers ON Orders.CustomerID=Customers.CustomerID
-JOIN OrderDetails ON Orders.OrderID=OrderDetails.OrderID
-JOIN Products ON OrderDetails.ProductID=Products.ProductID;
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 ```
 
-TODO: Make simpler for first join intro and add graph
+
+**More info:**
 
 By default when you just use 'join' we are creating a inner join. Read more about different joins [here](https://www.w3schools.com/sql/sql_join.asp)
 .
@@ -512,9 +520,9 @@ Setup an actual database on your computer!
 
 
 ## Upcoming Events!
-We host so many events! check out our [calendar](https://www.galvanize.com/san-francisco/events)
+We host so many events! check out our [calendar](https://www.galvanize.com/los-angeles/events)
 
-[Learn code](https://www.meetup.com/learn-to-code-san-francisco/). Thats this meetup! We do workshops and community programming nights! Keep an eye out for more events coming to San Francisco soon!
+[Learn code](https://www.meetup.com/Learn-Data-Science-Los-Angeles/). Thats this meetup! We do workshops and community programming nights! Keep an eye out for more events coming to San Francisco soon!
 
 Upcoming Learn to code [events](https://www.meetup.com/Learn-Code-Seattle/events/):
 
