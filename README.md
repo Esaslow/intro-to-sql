@@ -231,6 +231,11 @@ Important first step is to understand your data.
 - What does it represent?
 
 
+### BREAKOUT: (5 minutes)
+- Lets explore the tables that we have before we begin to query them.  On the right side, you can find all the tables that you have access to.  With a partner, take a look at the information that we have access to in these tables!
+
+### Lecture Continued
+
 Lets do some different types querying to figure this out!
 
 Lets take a look at all the categories of products we have
@@ -274,10 +279,14 @@ We can also filter columns by more than one value.
 
 ```
 SELECT * FROM OrderDetails
-WHERE ProductID = 14 OR ProductID = 42;
+WHERE ProductID = 14 OR Quantity < 10;
 ```
 
+### BREAK OUT: (5 minutes)
+**How would we see all the orders for the product with the ID either 14 or 16?**
 
+
+### Continue Lecture
 So far we have been returning all the columns of a record that match our query. What if we want to only look at a few of them?
 
 Instead of using `*` to select all we can put in the specific columns we want returned. We can also put them in different order!
