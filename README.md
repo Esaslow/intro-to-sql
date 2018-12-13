@@ -41,14 +41,14 @@ Give a quick Intro!
 - Whats your background?
 - Why are you interested in SQL and data?
 
-One of the best things about these in person workshops is being able to meet new people! Talk to each other! 
+One of the best things about these in person workshops is being able to meet new people! Talk to each other!
 
 
 ## What this workshop is
 
 A super friendly introduction to SQL No previous experience expected!
 
-You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! Come to our almost weekly code hours [meetups](https://www.meetup.com/Learn-Code-Seattle/events/) to ask questions if you get stuck and show off what you've been working on!
+You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! Come to our almost weekly code hours [meetups](https://www.meetup.com/Learn-Data-Science-Los-Angeles/) to ask questions if you get stuck and show off what you've been working on!
 
 - This course is for absolute beginners
 - Ask Questions!
