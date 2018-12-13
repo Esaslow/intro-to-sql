@@ -1,6 +1,7 @@
-# intro to SQL  
+# Intro to SQL  
 
-## short URL to this repo [sqlrepo.sage.codes](https://github.com/sagecodes/into-to-sql)
+## Accessing the curriculum:
+- http://bit.ly/galvanize_python_crash_course
 
 ## Setting up your computer:
 
@@ -524,19 +525,18 @@ We host so many events! check out our [calendar](https://www.galvanize.com/los-a
 
 [Learn code](https://www.meetup.com/Learn-Data-Science-Los-Angeles/). Thats this meetup! We do workshops and community programming nights! Keep an eye out for more events coming to San Francisco soon!
 
-Upcoming Learn to code [events](https://www.meetup.com/Learn-Code-Seattle/events/):
 
 
 ## What is Galvanize?
 
 #### Immersive Bootcamp
-- [Data Science](https://www.galvanize.com/san-francisco/data-science) - 1/22/2019
-- [Software Engineer](https://www.galvanize.com/san-francisco/web-development) - 10/5/2018
+- [Data Science](https://www.galvanize.com/los-angeles/data-science) - 1/22/2019
+- [Software Engineer](https://www.galvanize.com/los-angeles/web-development) - 10/5/2018
 
 #### Part-Time Courses
 
-- [Python Accelerated Evening Course](https://www.galvanize.com/seattle/web-development-foundations) - 10/29/2018
-- [2 Day Statistics Short-Course](https://www.galvanize.com/seattle/data-analytics) - 12/04/2018
+
+- [2 Day Statistics Short-Course](https://www.eventbrite.com/e/galvanize-los-angeles-2-day-statistics-short-course-tickets-52007300235?aff=ebdssbdestsearch) - 12/17/2018
 
 
 #### Co-working Space
@@ -550,12 +550,10 @@ Please feel free to reach out to me with any questions!
 
 This was only my 2nd time running this workshop, help improve it by giving me feedback :)
 
-- Website: [sageelliott.com](http://sageelliott.com/)
-- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
-- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/)
-- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+- Website: [elliottsaslow.com](http://elliottsaslow.com/)
+- Twitter: [@elliottsaslow](https://twitter.com/@ElliottSaslow)
+- Email: [elliott.saslow@galvanize.com](mailto:elliott.saslow@galvanize.com)
 
-THANK YOU FOR HAVING ME SAN FRANCISCO!
 
 Questions about education at Galvanize SF email [learn@galvanize.com](mailto:learn@galvanize.com)
 
