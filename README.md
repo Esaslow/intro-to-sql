@@ -330,8 +330,12 @@ WHERE CustomerName LIKE 'A%';
 
 Read more types of way to filter [here](https://www.w3schools.com/sql/sql_like.asp).
 
+## BREAK OUT (5 Minutes):
+- Can you query all the products that names start with a `T`?
+- What about all customers whose name begins with  `H`?
 
-## Functions
+## Continue with Lecture
+### Functions
 
 If you've used excel you'll probably be familiar with some of these functions.
 
