@@ -19,7 +19,9 @@ We create a technology ecosystem for learners, entrepreneurs, startups, and esta
 We're an awesome community!!!
 
 
-Shout out to Jessica tonight! If you have any questions about Galvanize tale to her! You can also email her at [learn@galvanize.com](mailto:learn@galvanize.com)
+**If you have any questions about Galvanize go to this link and an Admissions officer will get in touch with you!**
+
+#### [Get in Touch with an Admissions Officer](https://goo.gl/forms/6WGWA4RbVs24sEDp2)
 
 
 ## About me:
