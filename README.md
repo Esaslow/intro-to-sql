@@ -218,7 +218,7 @@ If you would like to see a workshop more focused on Databases and how create the
 
 
 
-## lets do some SQL!
+## Lets do some SQL!
 
 Visit [w3schools](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) and navigate to the SQL section.
 
@@ -253,8 +253,8 @@ Lets rearrange the orders by date
 SELECT * FROM Orders
 ORDER BY OrderDate DESC;
 ```
-ASC = Ascending
-DESC = Descending
+- ASC = Ascending
+- DESC = Descending
 
 Neat! Lets see which customer made that top order (most recent)! We will take the value from the CustomerID column.
 
