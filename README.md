@@ -360,13 +360,17 @@ SELECT * FROM Customers;
 
 ```
 INSERT INTO Customers (CustomerName, City, Country)
-VALUES ('Sage', 'Seattle', 'USA');
+VALUES ('Elliott', 'Los Angeles', 'USA');
 ```
 
 ```
 SELECT * FROM Customers;
 ```
+### BREAK OUT (5 min):
+- Insert your name into the customers database and then query all of the customers.
+- Insert a new product into the products table.  
 
+#### Continue Lecture
 ##### What's Null?
 You should notice that some of the sections on our new row contain the word `null`.
 In SQL you can think of `null` means that the cell contains no value.
