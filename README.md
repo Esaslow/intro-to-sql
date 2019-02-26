@@ -1,7 +1,7 @@
 # Intro to SQL  
 
 ## Accessing the curriculum:
-- **bit.ly/galvanize_python_crash_course**
+- **www.bit.ly/G-SQL**
 
 ## Setting up your computer:
 
