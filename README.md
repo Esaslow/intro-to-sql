@@ -1,5 +1,5 @@
 # Intro to SQL  
-
+### Elliott Saslow
 ## Accessing the curriculum:
 - **www.bit.ly/G-SQL**
 
